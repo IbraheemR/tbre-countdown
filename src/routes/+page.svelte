@@ -24,19 +24,19 @@
 
 </script>
 
-<div class="text-[20vmin] h-screen flex items-center justify-center flex-col">
-    <div>
+<div class="text-[16vmin] h-screen flex items-center justify-center flex-col">
+    <div class="mt-[30vh]">
         {days}
-        <span class="text-[10vmin]">D</span>
+        <span class="text-[8vmin]">D</span>
         {hours}
-        <span class="text-[10vmin]">h</span>
+        <span class="text-[8vmin]">h</span>
         {mins}
-        <span class="text-[10vmin]">m</span>
+        <span class="text-[8vmin]">m</span>
         {secs}
-        <span class="text-[10vmin]">s</span>
+        <span class="text-[8vmin]">s</span>
     </div>
-    <div class="text-[10vmin]">until comp</div>
-    <div class="text-[5vmin] mt-[20vh]">bad things Joao said: 
+    <div class="text-[8vmin]">until comp</div>
+    <div class="text-[4vmin] mt-[20vh]">bad things Joao said: 
         <Doc ref="data/joao" let:data={joao}>{joao.count}</Doc>
     </div>
 </div>
