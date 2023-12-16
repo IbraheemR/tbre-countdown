@@ -16,7 +16,7 @@
         days = Math.floor(diff/1000/60/60/24);
         diff = diff - days*1000*60*60*24;
         hours= Math.floor(diff/1000/60/60);        
-        diff = diff - hours*1000*60;
+        diff = diff - hours*1000*60*60;
         mins = Math.floor(diff/1000/60);
         diff = diff - mins*1000*60;
         secs = Math.floor(diff/1000);
