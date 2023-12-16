@@ -1,5 +1,7 @@
 <script lang="ts">
-    const T = Date.parse('01 Jul 2024 00:00:00 GMT').valueOf();
+    import { Collection, Doc } from "sveltefire";
+
+    const T = Date.parse('07 Jul 2024 00:00:00 GMT').valueOf();
 
     let now = Date.now();
 
@@ -18,9 +20,13 @@
     }
 
 </script>
+
 <div class="text-[20vmin] h-screen flex items-center justify-center flex-col">
-    <div class="m-10">
+    <div>
         {days} days 
     </div>
-    <div class="text-[10vmin] m-10">until comp</div>
+    <div class="text-[10vmin]">until comp</div>
+    <div class="text-[5vmin] mt-[20vh]">bad things Joao said: 
+        <Doc ref="data/joao" let:data={joao}>{joao.count}</Doc>
+    </div>
 </div>
