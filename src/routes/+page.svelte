@@ -1,7 +1,7 @@
 <script lang="ts">
     import { Collection, Doc } from "sveltefire";
 
-    const T = Date.parse('07 Jul 2024 00:00:00 GMT').valueOf();
+    const T = Date.parse('08 Feb 2024 23:59:00 GMT').valueOf();
 
     let now = Date.now();
 
@@ -35,8 +35,8 @@
         {secs}
         <span class="text-[8vmin]">s</span>
     </div>
-    <div class="text-[8vmin]">until comp</div>
-    <div class="text-[4vmin] mt-[20vh]">bad things Joao said: 
+    <div class="text-[8vmin]">until SES deadline &lt;3</div>
+    <!--<div class="text-[4vmin] mt-[20vh]">bad things Joao said: 
         <Doc ref="data/joao" let:data={joao}>{joao.count}</Doc>
-    </div>
+    </div>-->
 </div>
