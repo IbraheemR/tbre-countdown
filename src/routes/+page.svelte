@@ -25,7 +25,7 @@
 </script>
 
 <div class="text-[16vmin] h-screen flex items-center justify-center flex-col">
-    <div class="mt-[30vh]">
+    <div>
         {days}
         <span class="text-[8vmin]">D</span>
         {hours}
