@@ -35,7 +35,7 @@
         {secs}
         <span class="text-[8vmin]">s</span>
     </div>
-    <div class="text-[8vmin]">to IAD / FSG SES deadline</div>
+    <div class="text-[8vmin]">to FSG IAD & SES deadline</div>
     <!--<div class="text-[4vmin] mt-[20vh]">bad things Joao said: 
         <Doc ref="data/joao" let:data={joao}>{joao.count}</Doc>
     </div>-->
