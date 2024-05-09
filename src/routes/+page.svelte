@@ -1,7 +1,7 @@
 <script lang="ts">
     import { Collection, Doc } from "sveltefire";
 
-    const T = Date.parse('17 Jul 2024 00:00:00 GMT').valueOf();
+    const T = Date.parse('18 Jul 2024 06:00:00 GMT').valueOf();
 
     let now = Date.now();
 
