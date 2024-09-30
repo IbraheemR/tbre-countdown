@@ -35,7 +35,11 @@
         {secs}
         <span class="text-[8vmin]">s</span>
     </div>
-    <div class="text-[8vmin]">until FSUK scruti opens.</div>
+
+    <!-- JUST TO TEST UNTIL WE HAVE DATE: -->
+    <div class="text-[8vmin]">until your dad comes home from getting milk.</div>
+    
+    
     <!--<div class="text-[4vmin] mt-[20vh]">bad things Joao said: 
         <Doc ref="data/joao" let:data={joao}>{joao.count}</Doc>
     </div>-->
