@@ -1,7 +1,7 @@
 <script lang="ts">
     import { Collection, Doc } from "sveltefire";
 
-    const T = Date.parse('17 Jul 2024 05:00:00 GMT').valueOf();
+    const T = Date.parse('06 Dec 2024 05:00:00 GMT').valueOf();
 
     let now = Date.now();
 
@@ -36,8 +36,7 @@
         <span class="text-[8vmin]">s</span>
     </div>
 
-    <!-- JUST TO TEST UNTIL WE HAVE DATE: -->
-    <div class="text-[8vmin]">until your dad comes home from getting milk.</div>
+    <div class="text-[8vmin]">until FSUK DCS is due in.</div>
     
     
     <!--<div class="text-[4vmin] mt-[20vh]">bad things Joao said: 
