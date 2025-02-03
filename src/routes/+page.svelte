@@ -4,15 +4,22 @@
     // Array of events with name and date in d/m/y h:m format
     let events = [
 
-        { name: "Design Concept Specification (DCS) Due", date: "06/12/2024 17:00" },
+        { name: "FSUK Design Concept Specification (DCS) Due", date: "06/12/2024 17:00" },
         // { name: "Soon Test", date: "04/02/2025 10:00" },
-        { name: "SES Due In", date: "7/2/2025 17:00" },
+        { name: "FSUK SES Due In", date: "07/02/2025 17:00" },
+        { name: "FSUK Electrical Safety Officer+Advisor Form Due In", date: "07/02/2025 17:00" },
+        { name: "FSG SES/ASES/IAD/SESA/SE3D/CTS Due In", date: "14/03/2025 12:00" },
+        { name: "FSUK Electrical Systems Form (ESF) Due In", date: "21/03/2025 17:00" },
+        { name: "FSG Electrical System Form (ESF) Due In 1PM CET [CHECK TIMEZONES]", date: "28/03/2025 12:00" },
         { name: "Lap Time Sim Rules Released + Reg Opens", date: "08/04/2025 17:00" },
-        { name: "IA Data Due In", date: "27/04/2025 17:00" },
-        { name: "LTS License Deadline", date: "08/05/2025 17:00" },
+        { name: "FSUK Impact Attenuator Data (IAD) Due In", date: "27/04/2025 17:00" },
+        { name: "FSUK LTS License Registration Requests Deadline", date: "08/05/2025 17:00" },
         { name: "Engineering Design Report (EDR) Deadline", date: "12/05/2025 17:00" },
-        { name: "Design Spec Sheet (DSS) Due In", date: "12/05/2025 17:00" },
-        { name: "Cost Report Document Due In", date: "16/06/2025 17:00" },
+        { name: "FSG Design Spec Sheet (DSS) + EDR + MU Deadline 1PM CEST [CHECK TIMEZONES]", date: "06/06/2025 12:00"},
+        { name: "FSUK Design Spec Sheet (DSS) Deadline", date: "12/05/2025 17:00"},
+        { name: "FSUK EV Protocols Document Due In", date: "13/06/2025 17:00" },
+        { name: "FSUK Cost Report Document Due In", date: "16/06/2025 17:00" },
+        { name: "LTS Final Vehicle Model Submission + Validation Test Plan Due In", date: "16/06/2025 17:00"},
         { name: "Pre-Scruti Form Due In", date: "20/06/2025 17:00" },
 
 
