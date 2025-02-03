@@ -11,9 +11,9 @@
         { name: "IA Data Due In", date: "27/04/2025 17:00" },
         { name: "LTS License Deadline", date: "08/05/2025 17:00" },
         { name: "Engineering Design Report (EDR) Deadline", date: "12/05/2025 17:00" },
-        { name: "Design Spec Sheet (DSS)", date: "12/05/2025 17:00" },
+        { name: "Design Spec Sheet (DSS) Due In", date: "12/05/2025 17:00" },
+        { name: "Cost Report Document Due In", date: "16/06/2025 17:00" },
         { name: "Pre-Scruti Form Due In", date: "20/06/2025 17:00" },
-
 
 
         //{ name: "Car finished", date: "10/05/2025 10:00" },  // Far away
