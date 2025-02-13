@@ -8,6 +8,7 @@
         // { name: "Soon Test", date: "04/02/2025 10:00" },
         { name: "FSUK SES Due In", date: "07/02/2025 17:00" },
         { name: "FSUK Electrical Safety Officer+Advisor Form Due In", date: "07/02/2025 17:00" },
+        { name: "INTERNAL TBRe AERO DESIGN FREEZE", date: "28/02/2025 17:00" },
         { name: "FSG SES/ASES/IAD/SESA/SE3D/CTS Due In", date: "14/03/2025 12:00" },
         { name: "FSUK Electrical Systems Form (ESF) Due In", date: "21/03/2025 17:00" },
         { name: "FSG Electrical System Form (ESF) Due In 1PM CET [CHECK TIMEZONES]", date: "28/03/2025 12:00" },
