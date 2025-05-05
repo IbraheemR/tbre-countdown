@@ -17,12 +17,12 @@
         { name: "FSUK Impact Attenuator Data (IAD) Due In", date: "27/04/2025 17:00" },
         { name: "FSUK LTS License Registration Requests Deadline", date: "08/05/2025 17:00" },
         { name: "FSUK AI Autonomous Design Report Due In", date: "08/05/2025 17:00" },
-        { name: "FSUK Engineering Design Report (EDR) Deadline", date: "12/05/2025 17:00" },
+        { name: "FSUK Engineering Design Report (EDR) and Design Spec Sheet (DSS) Deadline", date: "12/05/2025 17:00" },
         { name: "FSUK AI Design Specification Sheet Due In", date: "12/05/2025 17:00" },
-        { name: "FSG Design Spec Sheet (DSS) + EDR + MU Deadline 1PM CEST [CHECK TIMEZONES]", date: "06/06/2025 12:00"},
-        { name: "FSUK Design Spec Sheet (DSS) Deadline", date: "12/05/2025 17:00"},
+        { name: "INTERNAL COSTING DEADLINE", date: "18/05/2025 17:00" },
         { name: "FSUK AI Event Programme Images Due In", date: "24/05/2025 17:00"},
         { name: "FSUK AI System Status Report Due In", date: "29/05/2025 17:00"},
+        { name: "FSG Design Spec Sheet (DSS) + EDR + MU Deadline 1PM CEST [CHECK TIMEZONES]", date: "06/06/2025 12:00"},
         { name: "FSUK EV Protocols Document Due In", date: "13/06/2025 17:00" },
         { name: "FSUK Cost Report Document Due In", date: "16/06/2025 17:00" },
         { name: "FSUK LTS Final Vehicle Model Submission + Validation Test Plan Due In", date: "16/06/2025 17:00"},
@@ -77,9 +77,14 @@
             // Color logic based on proximity to event
             if (days <= 0 && hours <= 24) {
                 color = 'red';  // Event is very close
-            } else if (days <= 14) {
+            }
+            else if (days <= 5) {
                 color = 'orange';  // Event is approaching
-            } else {
+            }
+            else if (days <= 10){
+                color = 'yellow';
+            }
+            else {
                 color = 'green';  // Event is far away
             }
         }
@@ -138,16 +143,33 @@
         font-family: "ComicMono", "Comic Sans", cursive;
     }
 
+    mark {
+        background-color: black;
+        color: white;
+    }
+
     .green {
         background-color: green;
     }
 
     .orange {
-        background-color: orange;
+        background-color: #e86609;
+    }
+
+    .yellow {
+        background-color: #eddc1d;
     }
 
     .red {
-        background-color: red;
+        /*background-color: red;*/
+        background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2hnMzdhNXhuMWIxa242YWdmZ3d5MHN6NGF2OTIzYndxcnF3NW1kciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oeSAQoA5PLG4jLTos/giphy.gif');
+        background-size: 300px 200px; /* Resize the GIF to 50px by 50px */
+        background-repeat: repeat; /* Tiling the GIF horizontally and vertically */
+        background-position: top left; /* Optional: starts the tiling from the top-left corner */
+        font-weight: bold;
+        color: red;
+        text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.8);
+        letter-spacing: 1.5px;
     }
 
     .grey {
