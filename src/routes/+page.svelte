@@ -27,7 +27,26 @@
         { name: "FSUK Cost Report Document Due In", date: "16/06/2025 17:00" },
         { name: "FSUK LTS Final Vehicle Model Submission + Validation Test Plan Due In", date: "16/06/2025 17:00"},
         { name: "FSUK Pre-Scruti Form Due In", date: "20/06/2025 17:00" },
-        { name: "FS Portugal Cost Submission [1PM CEST] CHECK TIMEZONE ", date: "16/07/2025 12:00"},
+
+        // From https://www.formulastudent.pt/_files/ugd/169cc9_a86574853ec745b2bc2650e5ef55a97c.pdf
+        { name: "[FSPT 1PM CEST] ESO Qualification (ESOQ) Due In", date: "21/06/2025 12:00"},
+
+        //Ellecy
+        {name: "ELEC Begin Spin on Stands on TBRe24", date: "23/06/2025 10:00"},
+
+        // Fedes:
+        {name: "FSUK SES Self-initiated Resubmission Due In", date: "23/06/2025 17:00"},
+        {name: "FSG SES V4 Resubmission Due In", date: "25/06/2025 10:00"},
+
+        //LAUNCH
+        {name: "**CAR LAUNCHES**", date: "27/06/2025 10:00"},
+
+        // More FSPT
+        { name: "[FSPT 1PM CEST] Vehicle Status Video (VSV) Due In", date: "05/07/2025 12:00"},
+        { name: "[FSPT 1PM CEST] COSTING REPORT DOCUMENT (CRD) Due In", date: "16/07/2025 12:00"},
+        { name: "[FSPT 1PM CEST] EMAIL FSPT NO DV EVENTS (PT2.9)", date: "16/07/2025 12:00"},
+
+
         { name: "FS Germany Cost Submission [1PM CEST] CHECK TIMEZONE", date: "01/08/2025 12:00"},
 
 
