@@ -50,6 +50,12 @@
         { name: "FS Germany Cost Submission [1PM CEST] CHECK TIMEZONE", date: "01/08/2025 12:00"},
 
 
+        // FSG and onwards
+        { name: "Luton's leave for Germany! (Huw's Rampage)", date: "17/08/2025 00:01"},
+        { name: "Car, Tools and camping kit must be packed into Lutons", date: "16/08/2025 17:00"},
+
+
+
         //{ name: "Car finished", date: "10/05/2025 10:00" },  // Far away
         //{ name: "Today", date: "03/02/2025 14:30" },  // Close
         //{ name: "Past Event", date: "01/01/2025 00:00" },    // Already passed
