@@ -130,13 +130,13 @@
             
             // Quiz day
             
-            if (days <= 0 && hours <= 0 && minutes <= 10) {
+            if (days <= 0 && hours <= 0 && minutes <= 15) {
                 color = 'red';  // Event is very close
             }
-            else if (days <= 0 && hours <= 0 && minutes <= 30) {
+            else if (days <= 0 && hours <= 1 && minutes <= 30) {
                 color = 'orange';  // Event is very close
             }
-            else if (days <= 0 && hours <= 1) {
+            else if (days <= 0 && hours <= 2) {
                 color = 'green';  // Event is very close
             }
             else {
