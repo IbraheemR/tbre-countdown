@@ -4,57 +4,57 @@
     // Array of events with name and date in d/m/y h:m format
     let events = [
 
-        { name: "FSUK Design Concept Specification (DCS) Due", date: "06/12/2024 17:00" },
+        // { name: "FSUK Design Concept Specification (DCS) Due", date: "06/12/2024 17:00" },
         // { name: "Soon Test", date: "04/02/2025 10:00" },
-        { name: "FSUK SES Due In", date: "07/02/2025 17:00" },
-        { name: "FSUK Electrical Safety Officer+Advisor Form Due In", date: "07/02/2025 17:00" },
-        { name: "INTERNAL TBRe AERO DESIGN FREEZE", date: "28/02/2025 17:00" },
-        { name: "FSG SES/ASES/IAD/SESA/SE3D/CTS Due In", date: "14/03/2025 12:00" },
-        { name: "FSUK Electrical Systems Form (ESF) Due In", date: "21/03/2025 17:00" },
-        { name: "FSG Electrical System Form (ESF) Due In 1PM CET [CHECK TIMEZONES]", date: "28/03/2025 12:00" },
-        { name: "FSUK AI Autonomous System Form (ASF) Due In", date: "31/03/2025 17:00" },
-        { name: "FSUK Lap Time Sim Rules Released + Reg Opens", date: "08/04/2025 17:00" },
-        { name: "FSUK Impact Attenuator Data (IAD) Due In", date: "27/04/2025 17:00" },
-        { name: "FSUK LTS License Registration Requests Deadline", date: "08/05/2025 17:00" },
-        { name: "FSUK AI Autonomous Design Report Due In", date: "08/05/2025 17:00" },
-        { name: "FSUK Engineering Design Report (EDR) and Design Spec Sheet (DSS) Deadline", date: "12/05/2025 17:00" },
-        { name: "FSUK AI Design Specification Sheet Due In", date: "12/05/2025 17:00" },
-        { name: "INTERNAL COSTING DEADLINE", date: "18/05/2025 17:00" },
-        { name: "FSUK AI Event Programme Images Due In", date: "24/05/2025 17:00"},
-        { name: "FSUK AI System Status Report Due In", date: "29/05/2025 17:00"},
-        { name: "FSG Design Spec Sheet (DSS) + EDR + MU Deadline 1PM CEST [CHECK TIMEZONES]", date: "06/06/2025 12:00"},
-        { name: "FSUK EV Protocols Document Due In", date: "13/06/2025 17:00" },
-        { name: "FSUK Cost Report Document Due In", date: "16/06/2025 17:00" },
-        { name: "FSUK LTS Final Vehicle Model Submission + Validation Test Plan Due In", date: "16/06/2025 17:00"},
-        { name: "FSUK Pre-Scruti Form Due In", date: "20/06/2025 17:00" },
+        // { name: "FSUK SES Due In", date: "07/02/2025 17:00" },
+        // { name: "FSUK Electrical Safety Officer+Advisor Form Due In", date: "07/02/2025 17:00" },
+        // { name: "INTERNAL TBRe AERO DESIGN FREEZE", date: "28/02/2025 17:00" },
+        // { name: "FSG SES/ASES/IAD/SESA/SE3D/CTS Due In", date: "14/03/2025 12:00" },
+        // { name: "FSUK Electrical Systems Form (ESF) Due In", date: "21/03/2025 17:00" },
+        // { name: "FSG Electrical System Form (ESF) Due In 1PM CET [CHECK TIMEZONES]", date: "28/03/2025 12:00" },
+        // { name: "FSUK AI Autonomous System Form (ASF) Due In", date: "31/03/2025 17:00" },
+        // { name: "FSUK Lap Time Sim Rules Released + Reg Opens", date: "08/04/2025 17:00" },
+        // { name: "FSUK Impact Attenuator Data (IAD) Due In", date: "27/04/2025 17:00" },
+        // { name: "FSUK LTS License Registration Requests Deadline", date: "08/05/2025 17:00" },
+        // { name: "FSUK AI Autonomous Design Report Due In", date: "08/05/2025 17:00" },
+        // { name: "FSUK Engineering Design Report (EDR) and Design Spec Sheet (DSS) Deadline", date: "12/05/2025 17:00" },
+        // { name: "FSUK AI Design Specification Sheet Due In", date: "12/05/2025 17:00" },
+        // { name: "INTERNAL COSTING DEADLINE", date: "18/05/2025 17:00" },
+        // { name: "FSUK AI Event Programme Images Due In", date: "24/05/2025 17:00"},
+        // { name: "FSUK AI System Status Report Due In", date: "29/05/2025 17:00"},
+        // { name: "FSG Design Spec Sheet (DSS) + EDR + MU Deadline 1PM CEST [CHECK TIMEZONES]", date: "06/06/2025 12:00"},
+        // { name: "FSUK EV Protocols Document Due In", date: "13/06/2025 17:00" },
+        // { name: "FSUK Cost Report Document Due In", date: "16/06/2025 17:00" },
+        // { name: "FSUK LTS Final Vehicle Model Submission + Validation Test Plan Due In", date: "16/06/2025 17:00"},
+        // { name: "FSUK Pre-Scruti Form Due In", date: "20/06/2025 17:00" },
 
         // From https://www.formulastudent.pt/_files/ugd/169cc9_a86574853ec745b2bc2650e5ef55a97c.pdf
-        { name: "[FSPT 1PM CEST] ESO Qualification (ESOQ) Due In", date: "21/06/2025 12:00"},
+        // { name: "[FSPT 1PM CEST] ESO Qualification (ESOQ) Due In", date: "21/06/2025 12:00"},
 
         //Ellecy
-        {name: "ELEC Begin Spin on Stands on TBRe24", date: "23/06/2025 10:00"},
+        // {name: "ELEC Begin Spin on Stands on TBRe24", date: "23/06/2025 10:00"},
 
         // Fedes:
-        {name: "FSUK SES Self-initiated Resubmission Due In", date: "23/06/2025 17:00"},
-        {name: "FSG SES V4 Resubmission Due In", date: "25/06/2025 10:00"},
+        // {name: "FSUK SES Self-initiated Resubmission Due In", date: "23/06/2025 17:00"},
+        // {name: "FSG SES V4 Resubmission Due In", date: "25/06/2025 10:00"},
 
         //LAUNCH
-        {name: "**CAR LAUNCHES**", date: "27/06/2025 10:00"},
+        // {name: "**CAR LAUNCHES**", date: "27/06/2025 10:00"},
 
         // More FSPT
-        { name: "[FSPT 1PM CEST] Vehicle Status Video (VSV) Due In", date: "05/07/2025 12:00"},
-        { name: "[FSPT 1PM CEST] COSTING REPORT DOCUMENT (CRD) Due In", date: "16/07/2025 12:00"},
-        { name: "[FSPT 1PM CEST] EMAIL FSPT NO DV EVENTS (PT2.9)", date: "16/07/2025 12:00"},
+        // { name: "[FSPT 1PM CEST] Vehicle Status Video (VSV) Due In", date: "05/07/2025 12:00"},
+        // { name: "[FSPT 1PM CEST] COSTING REPORT DOCUMENT (CRD) Due In", date: "16/07/2025 12:00"},
+        // { name: "[FSPT 1PM CEST] EMAIL FSPT NO DV EVENTS (PT2.9)", date: "16/07/2025 12:00"},
 
 
-        { name: "FS Germany Cost Submission [1PM CEST] CHECK TIMEZONE", date: "01/08/2025 12:00"},
+        // { name: "FS Germany Cost Submission [1PM CEST] CHECK TIMEZONE", date: "01/08/2025 12:00"},
 
 
         // FSG and onwards
 
-        { name: "Car must be operational for first day of testing", date:"11/08/2025 11:00"},
-        { name: "Car, Tools and camping kit must be packed into Lutons", date: "16/08/2025 17:00"},
-        { name: "Luton's leave for Germany! (Huw's Rampage)", date: "17/08/2025 00:01"},
+        // { name: "Car must be operational for first day of testing", date:"11/08/2025 11:00"},
+        // { name: "Car, Tools and camping kit must be packed into Lutons", date: "16/08/2025 17:00"},
+        // { name: "Luton's leave for Germany! (Huw's Rampage)", date: "17/08/2025 00:01"},
 
 
 
@@ -64,6 +64,17 @@
         //{ name: "Past Event", date: "01/01/2025 00:00" },    // Already passed
         //{ name: "Past Event 2 will vanish", date: "03/02/2020 16:01" }
 
+        
+
+
+
+        { name: "FSPT / FS Switzerland", date: "30/01/2026 08:00" },
+        { name: "FS Spain", date: "30/01/2026 10:00" },
+        { name: "FSG", date: "30/01/2026 12:00" },
+        { name: "FS Czech", date: "30/01/2026 14:00" },
+        { name: "FS East", date: "30/01/2026 15:00" },
+        { name: "FS Croatia / Poland", date: "30/01/2026 16:00" },
+        { name: "FSF and FSA", date: "30/01/2026 18:00" },
 
 
     ];
@@ -103,18 +114,36 @@
             timeLeft = `${days}d ${hours}h ${minutes}m ${seconds}s ${formattedMilliseconds}ms`;
 
             // Color logic based on proximity to event
-            if (days <= 0 && hours <= 24) {
+            // if (days <= 0 && hours <= 24) {
+            //     color = 'red';  // Event is very close
+            // }
+            // else if (days <= 5) {
+            //     color = 'orange';  // Event is approaching
+            // }
+            // else if (days <= 10){
+            //     color = 'yellow';
+            // }
+            // else {
+            //     color = 'green';  // Event is far away
+            // }
+
+            
+            // Quiz day
+            
+            if (days <= 0 && hours <= 0 && minutes <= 10) {
                 color = 'red';  // Event is very close
             }
-            else if (days <= 5) {
-                color = 'orange';  // Event is approaching
+            else if (days <= 0 && hours <= 0 && minutes <= 30) {
+                color = 'orange';  // Event is very close
             }
-            else if (days <= 10){
-                color = 'yellow';
+            else if (days <= 0 && hours <= 1) {
+                color = 'green';  // Event is very close
             }
             else {
-                color = 'green';  // Event is far away
+                color = 'green';
             }
+
+
         }
 
         return {timeLeft, color, bottomline, timeDifference};
