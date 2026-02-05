@@ -67,14 +67,77 @@
         
 
 
+        // 2026 Quiz Day
+        // { name: "FSPT / FS Switzerland", date: "30/01/2026 08:00" },
+        // { name: "FS Spain", date: "30/01/2026 10:00" },
+        // { name: "FSG", date: "30/01/2026 12:00" },
+        // { name: "FS Czech", date: "30/01/2026 14:00" },
+        // { name: "FS East", date: "30/01/2026 15:00" },
+        // { name: "FS Croatia / Poland", date: "30/01/2026 16:00" },
+        // { name: "FSF and FSA", date: "30/01/2026 18:00" },
 
-        { name: "FSPT / FS Switzerland", date: "30/01/2026 08:00" },
-        { name: "FS Spain", date: "30/01/2026 10:00" },
-        { name: "FSG", date: "30/01/2026 12:00" },
-        { name: "FS Czech", date: "30/01/2026 14:00" },
-        { name: "FS East", date: "30/01/2026 15:00" },
-        { name: "FS Croatia / Poland", date: "30/01/2026 16:00" },
-        { name: "FSF and FSA", date: "30/01/2026 18:00" },
+
+        // 2026 Deadlines
+        
+        { name: "[UK] Alternative Fuel Report", date: "04/12/2025 17:00" },
+        { name: "[UK] Design Concept Specification", date: "05/12/2025 17:00" },
+
+        { name: "[UK] Structural Equivalency Spreadsheet (SES)", date: "05/02/2026 17:00" },
+        { name: "[UK] Electrical Systems Officer/Advisor (ESO/A) Form", date: "05/02/2026 17:00" },
+
+        { name: "[G] Driverless Cup Participation Intention (DCPI)", date: "20/02/2026 12:00" },
+
+        { name: "[UK] Full Lap Time Simulation Rules Released & registration opens.", date: "05/03/2026 17:00" },
+
+        { name: "[G] Accumulator Structural Equivalency Spreadsheet (ASES)", date: "13/03/2026 12:00" },
+        { name: "[G] Chassis Type Selection + IA Data (CTS + IAD)", date: "13/03/2026 12:00" },
+        // { name: "[G] Impact Attenuator Data (IAD)", date: "13/03/2026 12:00" },
+        { name: "[G] Structural Equivalency Spreadsheet + 3D Model (SES+SE3D)", date: "13/03/2026 12:00" },
+        // { name: "[G] Structural Equivalency  (SES)", date: "13/03/2026 12:00" },
+        { name: "[G] SES Approval (SESA)", date: "13/03/2026 12:00" },
+
+        { name: "[UK] Electrical System Form (ESF)", date: "19/03/2026 17:00" },
+
+        //{ name: "[G] Autonomous System Form (ASF)", date: "27/03/2026 12:00" },
+        { name: "[G] Electrical System Form (ESF)", date: "27/03/2026 12:00" },
+
+        // { name: "[UK] Change of fuel type", date: "31/03/2026 17:00" },
+
+        { name: "[UK] Impact Attenuator Data", date: "26/04/2026 17:00" },
+        // { name: "[UK] Hybrid System Form (HSF)", date: "26/04/2026 17:00" },
+
+        { name: "[UK] Lap Time Simulation - Deadline for License Registration Requests", date: "07/05/2026 17:00" },
+
+        { name: "[UK] Engineering Design Report (EDR)", date: "11/05/2026 17:00" },
+        { name: "[UK] Design Specification Sheet (DSS)", date: "11/05/2026 17:00" },
+
+        { name: "[G] Business Plan Executive & Financial Summary (BPEFS)", date: "29/05/2026 12:00" },
+        { name: "[G] Technical Vehicle System Documentation (TVSD)", date: "29/05/2026 12:00" },
+        { name: "[G] Media Uploads (MU)", date: "29/05/2026 12:00" },
+
+        { name: "[UK] Attending live confirmation", date: "08/06/2026 17:00" },
+
+        { name: "[UK] EV Protocols Document", date: "11/06/2026 17:00" },
+
+        { name: "[UK] Cost Report Document (CRD)", date: "15/06/2026 17:00" },
+        { name: "[UK] Lap Time Simulation - Model Validation Test Plan", date: "15/06/2026 17:00" },
+
+        { name: "[UK] Lap Time Simulation - Final Vehicle Model Submission", date: "18/06/2026 17:00" },
+        { name: "[UK] Pre-Scrutineering Form", date: "18/06/2026 17:00" },
+
+        // { name: "[G] ASR Qualification (ASRQ)", date: "19/06/2026 12:00" },
+        { name: "[G] Electrical System Officer Qualification (ESOQ)", date: "19/06/2026 12:00" },
+        { name: "[G] Team Member Designation (TMD)", date: "19/06/2026 12:00" },
+
+        { name: "[G] Vehicle Status Video (VSV)", date: "03/07/2026 12:00" },
+
+        { name: "[G] Cost Report Documents (CRD)", date: "24/07/2026 12:00" },
+        // { name: "[G] dbc file upload", date: "24/07/2026 12:00" },
+        { name: "[G] Option to set No Driverless", date: "24/07/2026 12:00" },
+
+        // { name: "[G] Waiting list closes", date: "25/07/2026 23:00" },
+
+        { name: "[G] On-site accumulator registration", date: "11/08/2026 19:00" },
 
 
     ];
@@ -114,35 +177,18 @@
             timeLeft = `${days}d ${hours}h ${minutes}m ${seconds}s ${formattedMilliseconds}ms`;
 
             // Color logic based on proximity to event
-            // if (days <= 0 && hours <= 24) {
-            //     color = 'red';  // Event is very close
-            // }
-            // else if (days <= 5) {
-            //     color = 'orange';  // Event is approaching
-            // }
-            // else if (days <= 10){
-            //     color = 'yellow';
-            // }
-            // else {
-            //     color = 'green';  // Event is far away
-            // }
-
-            
-            // Quiz day
-            
-            if (days <= 0 && hours <= 0 && minutes <= 15) {
+            if (days <= 0 && hours <= 24) {
                 color = 'red';  // Event is very close
             }
-            else if (days <= 0 && hours <= 1 && minutes <= 30) {
-                color = 'orange';  // Event is very close
+            else if (days <= 5) {
+                color = 'orange';  // Event is approaching
             }
-            else if (days <= 0 && hours <= 2) {
-                color = 'green';  // Event is very close
+            else if (days <= 10){
+                color = 'yellow';
             }
             else {
-                color = 'green';
+                color = 'green';  // Event is far away
             }
-
 
         }
 
